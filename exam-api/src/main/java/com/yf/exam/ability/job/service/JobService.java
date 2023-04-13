@@ -1,5 +1,4 @@
 package com.yf.exam.ability.job.service;
-
 /**
  * 任务业务类，用于动态处理任务信息
  * @author bool
