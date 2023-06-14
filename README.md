@@ -10,7 +10,7 @@
 # 商业版本
 如果开源版本无法满足您的需求，或者有需求需要定制，可以考虑我们的商业版本     
 商业版演示地址：https://exam.yfhl.net   
-商业版官网地址：https://www.yfhl.net/?plan=osq
+商业版官网地址：https://www.yfhl.net/?plan=osgq
 
 
 # 商业版咨询
@@ -77,7 +77,7 @@ https://www.ixigua.com/7041491265027834381?utm_source=xiguastudio
 7、管理员账号密码：admin/admin 学员账号：person/person  
  
 # 其它支持
-网站：https://www.yfhl.net/?plan=osq
+网站：https://www.yfhl.net/?plan=osgq
 QQ交流群：865330294
 
 ![主界面](https://images.gitee.com/uploads/images/2020/1019/182239_4a87af30_2189748.jpeg "222.jpg")
