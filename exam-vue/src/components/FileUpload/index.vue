@@ -3,7 +3,6 @@
     <file-upload-local v-model="fileUrl" :accept="accept" :tips="tips" :list-type="listType" />
   </div>
 </template>
-
 <script>
 
 import FileUploadLocal from './local'
