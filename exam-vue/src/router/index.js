@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 Vue.use(Router)
-
 // 主要框架
 import Layout from '@/layout'
 
