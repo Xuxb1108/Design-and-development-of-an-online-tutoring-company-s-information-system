@@ -18,6 +18,7 @@
         <result column="total_time" property="totalTime" />
         <result column="qualify_score" property="qualifyScore" />
     </resultMap>
+
     <!-- 通用查询结果列 -->
     <sql id="Base_Column_List">
         `id`,`title`,`content`,`open_type`,`join_type`,`level`,`state`,`time_limit`,`start_time`,`end_time`,`create_time`,`update_time`,`total_score`,`total_time`,`qualify_score`

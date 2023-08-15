@@ -284,21 +284,29 @@ export default {
     // 题库变换
     repoList: {
 
-      handler() {
-        this.postForm.totalScore = 0
+      handler(val) {
+        let totalScore = 0
         this.excludes = []
+        for (let i = 0; i<val.length; i++) {
+          const item = val[i]
+          if (item.radioCount > 0 && item.radioScore>0) {
+            totalScore += item.radioCount * item.radioScore
+          }
 
-        for (let i = 0; i<this.repoList.length; i++) {
-          const item = this.repoList[i]
-          this.postForm.totalScore += item.radioCount * item.radioScore
-          this.postForm.totalScore += item.multiCount * item.multiScore
-          this.postForm.totalScore += item.judgeCount * item.judgeScore
+          if (item.multiCount>0 && item.multiScore>0) {
+            totalScore += item.multiCount * item.multiScore
+          }
+
+          if (item.judgeCount>0 && item.judgeScore>0) {
+            totalScore += item.judgeCount * item.judgeScore
+          }
           this.excludes.push(item.id)
-          console.log('++++' + item.id)
         }
 
         // 赋值
-        this.postForm.repoList = this.repoList
+        this.postForm.totalScore = totalScore
+        this.postForm.repoList = val
+        this.$forceUpdate()
       },
       deep: true
     }

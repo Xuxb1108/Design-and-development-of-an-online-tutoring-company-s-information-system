@@ -33,6 +33,7 @@
 <script>
 
 import { getToken } from '@/utils/auth'
+
 export default {
   name: 'FileUploadLocal',
   props: {
