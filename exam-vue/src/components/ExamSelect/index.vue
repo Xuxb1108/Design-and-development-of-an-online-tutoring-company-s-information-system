@@ -1,5 +1,4 @@
 <template>
-
   <el-select
     v-model="currentValue"
     :multiple="multi"
