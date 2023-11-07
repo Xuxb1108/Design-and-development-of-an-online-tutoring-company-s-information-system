@@ -8,7 +8,6 @@
         <result column="exam_id" property="examId" />
         <result column="depart_id" property="departId" />
     </resultMap>
-
     <!-- 通用查询结果列 -->
     <sql id="Base_Column_List">
         `id`,`exam_id`,`depart_id`
