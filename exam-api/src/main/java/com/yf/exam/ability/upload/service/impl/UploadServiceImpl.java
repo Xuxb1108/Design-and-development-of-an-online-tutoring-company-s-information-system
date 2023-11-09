@@ -43,8 +43,6 @@ public class UploadServiceImpl implements UploadService {
         // 文件内容
         MultipartFile file = reqDTO.getFile();
 
-        System.out.println("++++后缀："+FilenameUtils.getExtension(file.getOriginalFilename()));
-
         // 验证文件后缀
         boolean allow = FilenameUtils.isExtension(file.getOriginalFilename(), conf.getAllowExtensions());
         if(!allow){
