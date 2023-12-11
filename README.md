@@ -47,7 +47,7 @@ https://cdn.yfhl.net/java-win/SQLyog.12.3.1.0.zip
 
 
 # 快速运行  
-1、可通过：http://localhost:8101 访问到项目了  
+1、可通过：http://localhost:8101 访问到项目  
 2、管理员账号密码：admin/admin 学员账号：person/person  
  
 
